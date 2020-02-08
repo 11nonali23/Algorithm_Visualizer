@@ -1,0 +1,48 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="QuickSort, Mergesort">
+    <meta name="author" content="Andrea Nonali">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="algosStyle.css">
+        <h1>ALGORITHM VISUALIZER</h1>
+        <div>
+            <hr>
+                <h4>Select the algorithm</h4>
+                SelectionSort<input type ="radio" name="algo" id="selec"/>
+                InsertionSort<input type ="radio" name="algo" id="insert"/>
+                QuickSort<input type ="radio" name="algo" id="quick"/>
+                Mergesort<input type ="radio" name="algo" id="merge"/>
+            </hr>
+            <script src="algorithms.js"></script>
+            <script src="callAlgos.js"></script>
+        </div>
+        <div>
+            <hr>
+                <h4>Select the range of rectangles</h4>
+                <input type="range" min="10" max="90" value="50" class="slider" id="slider">
+                <button class="cbt" id="canvBtn" onclick="createCanvas()">CREATE RECTANGLES</button>
+
+            </hr>
+        </div>
+    </head>
+    
+    
+    <body>
+        <hr></hr>
+        <div>
+            <h4 style="float: left">Click run to sort</h4>
+            <button class="rbt" id="runBtn" onclick="sort()">RUN</button>
+        </div>
+        <br></br>
+        <div>
+            <hr></hr>
+            <br>
+                <canvas class ="canv" id="canvas" width="1200" height="180"></canvas>
+                <script src="canvas.js"></script>
+            </br>
+        </div>
+    </body>
+</html>
