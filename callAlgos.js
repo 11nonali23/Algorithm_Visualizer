@@ -18,10 +18,10 @@ function sort() {
     else if(insert.checked)
         insertionSort();
     else if (quick.checked)
-        console.log("soon quickSort will be implemented");
+        alert("soon quickSort will be implemented");
     else if (merge.checked)
-        mergeSort();
+        alert("soon mergeSort will be implemented");
     else
-        alert("Please select something");
+        alert("Please select an algorithm");
 }
 
