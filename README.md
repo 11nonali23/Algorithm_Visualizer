@@ -4,3 +4,5 @@ algorithms.
 
 You can select an algorithm, create random rectangles from range 10 to 90 and sort it.
 
+You can see this project at https://11nonali23.github.io/Algorithm_Visualizer.
+
